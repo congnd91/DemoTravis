@@ -1,6 +1,7 @@
 language: csharp
 solution: DemoTravis.sln
 install:
+
   - nuget restore DemoTravis.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
