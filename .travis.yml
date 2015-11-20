@@ -1,0 +1,4 @@
+language: csharp
+solution: DemoTravis.sln
+script:  
+- xbuild /p:Configuration=Release DemoTravis.sln
